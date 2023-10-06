@@ -1,0 +1,36 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  max-width: 1200px;
+  margin: 34px 0;
+}
+.card-container h1 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.card-container p {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+.image-lists {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.images {
+  border-radius: 20px;
+  height: 70vh;
+}
